@@ -1,0 +1,11 @@
+[requires]
+sfml/2.5.1
+
+[generators]
+cmake
+
+[options]
+sfml:shared=True
+
+[imports]
+bin, *.dll -> ./bin
